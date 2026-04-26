@@ -1,10 +1,16 @@
 # YNAB Amazon Categorizer
+![Maintenance](https://img.shields.io/badge/Maintained%3F-No-red.svg) ![Status](https://img.shields.io/badge/Project%20Status-As--Is-orange)
 
 Automate YNAB transaction categorization using Claude AI, with special handling for Amazon purchases. Turns hours of manual categorization into minutes.
 
 > [!IMPORTANT]
-> **Project Status: Unmaintained / Reference Only**
-> This tool was built for personal use and is shared "as-is." I am not actively monitoring issues, reviewing pull requests, or providing support. If you'd like to extend the functionality or fix bugs, please **fork the repository** and make it your own!
+> 🔇 **Radio Silence Mode Active.** This repository is a reference-only code dump. 
+> I am not monitoring issues or PRs. Please **fork and self-support**.
+
+---
+
+## 🧊 Project Scope
+This script is a 🐍 **Python** utility that uses 🧠 **Claude AI** to bridge the gap between 📦 **Amazon Order History** and your 💸 **YNAB Budget**.
 
 ## What This Does
 
@@ -229,9 +235,12 @@ python ynab_cat.py test
 
 ## Cost
 
-- **Claude API (Haiku 4.5)**: ~$0.10-$0.25/month for ~100 Amazon transactions
 - **Amazon Order History Reporter Premium**: Check extension pricing
 - **YNAB API**: Free (included with YNAB subscription)
+- **Claude API (Haiku 4.5)**: ~$0.10-$0.25/month for ~100 Amazon transactions
+
+> [!NOTE]
+> **Cost Warning:** This script calls the Anthropic API. Ensure you monitor your usage costs.
 
 ## Privacy & Security
 
@@ -250,6 +259,9 @@ This repository is essentially a "code dump" of a working personal project. To k
 * **No PRs:** Pull Requests will not be reviewed or merged into this main branch.
 * **No Support:** I cannot provide help with setup, environment issues, or API troubleshooting.
 
+> [!CAUTION]
+> **No Troubleshooting Provided.** If it doesn't run on your machine, you are the lead developer for your own fork.
+
 **The code is yours to play with.** If you want to add features (like Windows support or new integrations), please **fork this repo**. You have full permission under the MIT License to take this code and run with it in your own public repository.
 
 ## 📜 License & Warranty
@@ -264,7 +276,7 @@ This project is licensed under the MIT License. As per the license, the software
 
 ## Author
 
-Created by Brien Louque ([@atersolitas](https://github.com/atersolitas))
+Created by Brien Louque ([@blouque](https://github.com/atersolitas))
 
 ---
 
