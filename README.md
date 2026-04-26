@@ -32,7 +32,8 @@ This script is a 🐍 **Python** utility that uses 🧠 **Claude AI** to bridge 
 
 1. **YNAB account** with API access
 2. **Anthropic API key** (Claude)
-3. **Python 3.11+**
+3. **Python 3.9+** (3.11+ recommended; Homebrew Python preferred on macOS)
+   * macOS system Python may show a LibreSSL warning — this is harmless and can be ignored
 4. **Chrome** with the [Amazon Order History Reporter](https://chrome.google.com/webstore/detail/amazon-order-history-repo/mgkilgclilajckgnedgjgnfdokkgnibi) extension
    - Premium subscription required for full functionality (provides per-shipment charge data)
 5. **macOS or Linux** (tested on macOS; Linux should work with minor path adjustments)
