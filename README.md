@@ -2,6 +2,10 @@
 
 Automate YNAB transaction categorization using Claude AI, with special handling for Amazon purchases. Turns hours of manual categorization into minutes.
 
+> [!IMPORTANT]
+> **Project Status: Unmaintained / Reference Only**
+> This tool was built for personal use and is shared "as-is." I am not actively monitoring issues, reviewing pull requests, or providing support. If you'd like to extend the functionality or fix bugs, please **fork the repository** and make it your own!
+
 ## What This Does
 
 - **Categorizes YNAB transactions** using Claude AI with full context from your budget history
@@ -238,20 +242,19 @@ python ynab_cat.py test
 - **Amazon data stays local** (CSVs in `~/.config/ynab-claude/`)
 - **Cache file is local** (`~/.ynab-cat-cache.json`)
 
-## Contributing
+## 🛑 Maintenance & Support
 
-Contributions welcome! Areas for improvement:
+This repository is essentially a "code dump" of a working personal project. To keep my notification tray empty, I am practicing **total radio silence** on this repo:
 
-- [ ] Windows/WSL support
-- [ ] Gmail-based Amazon matching (no extension required)
-- [ ] Other e-commerce sites (Target, Walmart, etc.)
-- [ ] Recurring transaction detection
-- [ ] Budget goal tracking integration
-- [ ] Web UI
+* **No Issues:** The issue tracker is not monitored.
+* **No PRs:** Pull Requests will not be reviewed or merged into this main branch.
+* **No Support:** I cannot provide help with setup, environment issues, or API troubleshooting.
 
-## License
+**The code is yours to play with.** If you want to add features (like Windows support or new integrations), please **fork this repo**. You have full permission under the MIT License to take this code and run with it in your own public repository.
 
-MIT License - see LICENSE file for details.
+## 📜 License & Warranty
+
+This project is licensed under the MIT License. As per the license, the software is provided **"as is"**, without warranty of any kind. I am not responsible for how this interacts with your YNAB budget, your Amazon account, or your Anthropic API bills.
 
 ## Acknowledgments
 
