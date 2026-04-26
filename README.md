@@ -42,7 +42,7 @@ This script is a 🐍 **Python** utility that uses 🧠 **Claude AI** to bridge 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ynab-amazon-categorizer.git
+git clone https://github.com/blouque/ynab-amazon-categorizer.git
 cd ynab-amazon-categorizer
 ```
 
