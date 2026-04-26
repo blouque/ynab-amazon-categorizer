@@ -1,7 +1,7 @@
 # YNAB Amazon Categorizer
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-No-red.svg) ![Status](https://img.shields.io/badge/Project%20Status-As--Is-orange)
 
-Automate YNAB transaction categorization using Claude AI, with special handling for Amazon purchases. Turns hours of manual categorization into minutes.
+Automate YNAB transaction categorization using Claude AI, with special handling for Amazon purchases. Turns hours of manual categorization into minutes. Keeps data and credentials all on your local machine.
 
 > [!IMPORTANT]
 > 🔇 **Radio Silence Mode Active.** This repository is a reference-only code dump. 
