@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# YNAB & Amazon data (sensitive)
+*.csv
+amazon_*.csv
+*.json
+!requirements.txt
+
+# API credentials
+.env
+credentials.json
+gmail_token.json
+gmail_credentials.json
+
+# Cache files
+.ynab-cat-cache.json
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
